@@ -1,0 +1,7 @@
+idade = int(input("idade em dias\n"))
+anos=int(idade/365)
+meses=int((idade - anos*365)/30)
+dias=int((idade - anos*365)-(meses*30))
+print("Anos " + str(anos))
+print("Meses " + str(meses))
+print("Dias " + str(dias))
